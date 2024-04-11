@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color:;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: aliceblue;
+  
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  #cmm{
+    font-weight: 900;
+    font-style: italic;
+    color: gold;
+    text-align: center;
+  }
+  #kim{
+    font-weight: bolder;
+    font-style: inherit;
+    color: black;
+    text-align: center;
+  }
+  
+  .remove-task{
+    margin-left: 100px;
+  }
+  #company-logo{
+    width: 10px;
+    height: 12px;
+  }
+  #mene{
+    width: 100px;
+    height: 100px;
+  }
+  #vesh{
+    color: gray;
+  }
+  #bon{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 900;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out forwards;
+    opacity: 7;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 4;
+    }
+  }
